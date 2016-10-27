@@ -4,16 +4,14 @@
 			@web sefatunckanat.github.io
 			@mail sefatunckanat73@gmail.com
 			@date 02.09.2016
+			@link https://github.com/sefatunckanat/shutUp.js
 	@usage
-		<p>
-			lorem
-		</p>
-		<script>
-			$("p").justUp(10,{
+		$(function(){
+			$("selector").justUp(10,{
 				dotChar	:	'.',
 				dotCount:	3,
 			});
-		</script>
+		})
 */
 var plugin = window.$ || window.jQuery;
 if (!plugin){
