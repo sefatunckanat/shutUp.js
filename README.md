@@ -4,7 +4,7 @@
 
 Minimized html text [jQuery](https://github.com/jquery/jquery) subtractive
 
-shutUp.js is crops in the specified text characters for required length.
+shutUp.js is crops in the specified text characters for required length. Basic javascript ellipsis tools.
 
 	substr is not good
 **Usage**
