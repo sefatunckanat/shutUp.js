@@ -1,9 +1,7 @@
 ![shutUp.js](https://github.com/sefatunckanat/shutUp.js/raw/master/demo/shutUp.png)
 
 #shutUp.js
-
 ----------
-
 Minimized html text [jQuery](https://github.com/jquery/jquery) subtractive
 
 shutUp.js is crops in the specified text characters for required length.
@@ -29,4 +27,4 @@ shutUp.js is crops in the specified text characters for required length.
 	}
 	$("selector").shutUp(100,exampleOptions);
 
-There are better, but this is me 
+There are better, but this is me
