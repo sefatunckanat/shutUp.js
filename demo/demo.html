@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Test</title>
+    <title>shutUp.js | Demo</title>
     <meta charset="utf-8">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="../dist/shutUp.js"></script>
     <style>
         html,body{font-family:sans-serif;text-align:center;font-size:0.9rem}
         .box{display:inline-block;vertical-align:top;width:40%;}
-        p{line-height:1.5rem;max-width:30rem;margin:1rem auto;border:1px solid rgba(0,0,0,0.1);border-radius:2px;padding:20px;box-sizing:border-box;text-align:justify}
+        p{line-height:1.5rem;max-width:30rem;margin:1rem auto;border:1px solid rgba(0,0,0,0.1);border-radius:2px;padding:20px;box-sizing:border-box;text-align:left}
         h2{text-align:center;}
     </style>
-    <script>
-        $(function(){
-            $(".ellipsi").shutUp(500,{'dotCount':5,'dotChar':'_'});
-        });
-    </script>
+    
 </head>
 <body>
     <div class="box">
         <h2>Default Text</h2>
         <p>
-            JavaScript, yaygın olarak web tarayıcılarında kullanılmakta olan dinamik bir programlama dilidir. JavaScript ile yazılan istemci tarafı betikler sayesinde tarayıcının kullanıcıyla etkileşimde bulunması, tarayıcının kontrol edilmesi, asenkron bir şekilde sunucu ile iletişime geçilmesi ve web sayfası içeriğinin değiştirilmesi gibi işlevler sağlanır. JavaScript, Node.js gibi platformlar sayesinde sunucu tarafında da yaygın olarak kullanılmaktadır.
+            JavaScript, yaygın olarak web tarayıcılarında kullanılmakta olan dinamik bir programlama dilidir. JavaScript ile yazılan istemci tarafı betikler sayesinde tarayıcının kullanıcıyla etkileşimde bulunması, tarayıcının kontrol edilmesi, asenkron bir şekilde sunucu ile iletişime geçilmesi ve web sayfası içeriğinin değiştirilmesi gibi işlevler sağlanır. JavaScript, Node.js gibi platformlar sayesinde sunucu tarafında da yaygın olarak kullanılmaktadır.<b style="font-size:20px">stil sahibi B TAGI</b>
             JavaScript prototip-tabanlı, dinamik türlere ve birinci-sınıf fonksiyonlara sahip bir betik dilidir. Nesne yönelimli, imperatif ve fonksiyonel programlama prensiplerine sahiptir.
             JavaScript ve Java arasında; isimleri, yazım şekli ve standart kütüphanelerindeki benzerlikler dışında bir bağlantı yoktur ve iki dilin semantikleri çok farklıdır. JavaScript'in yazım şekli C programlama dilinden türetilmiş, semantiği ve tasarımı ise Self ve Scheme programlama dillerinden esinlenmiştir.
         </p>
     </div>
     <div class="box">
-        <h2>shutUp.js (500)</h2>
+        <h2>shutUp.js (500,{5,'_'})</h2>
         <p class="ellipsi">
-            JavaScript, yaygın olarak web tarayıcılarında kullanılmakta olan dinamik bir programlama dilidir. JavaScript ile yazılan istemci tarafı betikler sayesinde tarayıcının kullanıcıyla etkileşimde bulunması, tarayıcının kontrol edilmesi, asenkron bir şekilde sunucu ile iletişime geçilmesi ve web sayfası içeriğinin değiştirilmesi gibi işlevler sağlanır. JavaScript, Node.js gibi platformlar sayesinde sunucu tarafında da yaygın olarak kullanılmaktadır.
+           JavaScript, yaygın olarak web tarayıcılarında kullanılmakta olan dinamik bir programlama dilidir. JavaScript ile yazılan istemci tarafı betikler sayesinde tarayıcının kullanıcıyla etkileşimde bulunması, tarayıcının kontrol edilmesi, asenkron bir şekilde sunucu ile iletişime geçilmesi ve web sayfası içeriğinin değiştirilmesi gibi işlevler sağlanır. JavaScript, Node.js gibi platformlar sayesinde sunucu tarafında da yaygın olarak kullanılmaktadır.<b style="font-size:30px">stil sahibi B TAGI</b>
             JavaScript prototip-tabanlı, dinamik türlere ve birinci-sınıf fonksiyonlara sahip bir betik dilidir. Nesne yönelimli, imperatif ve fonksiyonel programlama prensiplerine sahiptir.
             JavaScript ve Java arasında; isimleri, yazım şekli ve standart kütüphanelerindeki benzerlikler dışında bir bağlantı yoktur ve iki dilin semantikleri çok farklıdır. JavaScript'in yazım şekli C programlama dilinden türetilmiş, semantiği ve tasarımı ise Self ve Scheme programlama dillerinden esinlenmiştir.
         </p>
     </div>
+    <br>
+    <a href="http://sefatunckanat.github.io" target="_blank">sefatunckanat.github.io</a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../dist/shutUp.js"></script>
+    <script>
+        $(function(){
+            $(".ellipsi").shutUp(500,{'dotCount':5,'dotChar':'_'});
+        });
+    </script>
 </body>
 </html>

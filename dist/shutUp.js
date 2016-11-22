@@ -8,8 +8,8 @@
 	@usage
 		$(function(){
 			$("selector").shutUp(10,{
-				dotChar	:	'.',
-				dotCount:	3,
+				dotChar:'.',
+				dotCount:3,
 			});
 		})
 */
@@ -24,7 +24,7 @@ if (!plugin){
 					"dotChar":".",
 					"dotCount":3
 				},options);
-				var str = $(this).html().trim().replace(/\s\s+/g, ' ');
+				var str = $(this).html().trim().replace(/(<([^>]+)>)/ig,'').replace(/\s\s+/g,' ');
 				if(str.length>length){
 					var dots=" ";
 					for (var i=0;i<settings.dotCount;i++) {dots+=settings.dotChar;}
