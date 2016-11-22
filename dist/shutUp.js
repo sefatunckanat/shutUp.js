@@ -7,7 +7,7 @@
 			@link https://github.com/sefatunckanat/shutUp.js
 	@usage
 		$(function(){
-			$("selector").justUp(10,{
+			$("selector").shutUp(10,{
 				dotChar	:	'.',
 				dotCount:	3,
 			});
