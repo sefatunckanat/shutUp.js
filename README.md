@@ -27,4 +27,4 @@ shutUp.js is crops in the specified text characters for required length. Basic j
 	}
 	$("selector").shutUp(100,exampleOptions);
 
-There are better, but this is me
+There are better, but this is me....
